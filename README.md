@@ -1,4 +1,4 @@
-# music-festivals
+# ElectroRock Music Festivals
 
 ## About
 
