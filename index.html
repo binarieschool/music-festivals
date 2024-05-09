@@ -30,7 +30,7 @@
       <div class="overlay">
         <div class="container contain-video">
           <h2>ElectroRock Music Festivals</h2>
-          <p>Enero 2022, Tenerife, Spain.</p>
+          <p>Enero <span id="year"></span>, Tenerife, Spain.</p>
         </div>
       </div>
       <video autoplay muted loop>
@@ -185,6 +185,17 @@
     <footer class="site-footer">
       <p><span>ElectroRock Music Festivals </span>- All rights reserved</p>
     </footer>
+
+    <script>
+      // Get the DOM element where the year will be displayed
+      let yearElement = document.getElementById("year");
+ 
+      // Get the current year using the Date object
+      let currentYear = new Date().getFullYear();
+ 
+      // Assign the current year to the content of the DOM element
+      yearElement.textContent = currentYear;
+    </script>
 
     <script src="build/js/app.js"></script>
   </body>
