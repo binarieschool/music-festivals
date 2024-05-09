@@ -1,0 +1,44 @@
+{
+  "name": "music-festivals",
+  "version": "1.0.0",
+  "description": "web-freelancer simulates a website through which you can buy tickets online for a Rock and Electronic music festival. It shows you a gallery of photographs and information: date, time, genre and musical group, for each of the concerts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binarieschool/music-festivals.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "NodeJS",
+    "Gulp",
+    "Sass"
+  ],
+  "author": "Melquiades H.R.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/binarieschool/music-festivals/issues"
+  },
+  "homepage": "https://github.com/binarieschool/music-festivals#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.1",
+    "gulp": "^5.0.0",
+    "gulp-avif": "^1.1.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^5.0.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.77.0"
+  },
+  "dependencies": {
+    "gulp-terser-js": "^5.2.2"
+  }
+}
