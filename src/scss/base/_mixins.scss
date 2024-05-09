@@ -1,0 +1,42 @@
+@use 'variables' as v;
+
+/* Example with mixin scss
+@mixin background-test {
+    background-color: blue;
+}
+*/
+
+/* Sizes for different screen resolutions */
+
+@mixin phone {
+    @media (min-width: v.$phone) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+@mixin desktopXL {
+    @media (min-width: v.$desktopXL) {
+        @content;
+    }
+}
+@mixin grid($columns, $spaces) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $spaces;
+}
+
+@mixin reset-list {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
