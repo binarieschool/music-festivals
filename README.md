@@ -1,23 +1,35 @@
 # ElectroRock Music Festivals
 
-## About
+## About 🚀
 
-## Table of Contents
+  > Website to buy and consult Rock and Electronic music events.
 
-## Demo
+## Table of Contents 📑
 
-## Feactures
+## Demo 💻
 
-## Install and Run the project
+## Feactures 💡
 
-## Built with
+## Install and Run the project ⚙️
 
-## Useful resources
+```bash
+# Step 1
+```
+```bash
+# Step 2
+```
+```bash
+# Step 3
+```
 
-## License
+## Built with 🏗️
+
+## Useful resources 🔧
+
+## License 📋
 
   > GPL-3.0 license
 
-## Author
+## Author 🧑🏻‍💻
 
-  > Melquiades H.R.
+  > Melquiades H.R..
